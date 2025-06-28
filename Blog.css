@@ -1,0 +1,144 @@
+body {
+            font-family: sans-serif;
+            background: #f0f0f0;
+            padding: 10px;
+        }
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    margin: 10px;
+    box-shadow: 3px 2px 0px white;
+    /* padding: auto; */
+}
+header img{
+    /* width: 35%; */
+     height: 15vh; 
+    /* height: ; */
+    padding-top: 10px;
+    /* margin-right: 35vh; */
+    position: relative;
+    right: 30%;
+    border-radius: 55%;
+}
+header input{
+    padding: 10px;
+    margin: 20px;
+    height: 25px;
+    border-radius: 10px;
+}
+header input:focus{
+    background-color:gray;
+}
+ul{
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    list-style-type: none;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+     background-color: white;
+    color:green;
+}
+
+.article {
+            background: white;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+}
+.article img {
+            max-width: 100%;
+            height: auto;
+ }
+  .comments {
+            margin-top: 10px;
+            font-size: 0.9em;
+            background: green;
+            padding: 5px;
+            width: 30%;
+            border-radius: 10px;
+            margin: 0 auto;
+            overflow: hidden;
+ }
+ fieldset{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid green;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ fieldset img{
+    margin-left: 28vh;
+ }
+ .article input{
+    padding: 10px;
+    margin: 20px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 45vh;
+ }
+ button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+ }
+ cite{
+    margin-left: 35vh;
+ }
+ @media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header img {
+    right: 0;
+    height: 10vh;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  header input {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .article input {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .comments {
+    width: 90%;
+  }
+
+  fieldset {
+    width: 90%;
+  }
+
+  fieldset img {
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+
+  cite {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+}

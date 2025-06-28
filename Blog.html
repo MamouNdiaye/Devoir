@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Blog.css">
+</head>
+<body>
+    <body>
+    <header>
+        <!-- logo à gauche -->
+        <div class="logo img">
+            <img src="image/Mamoush transformation agroalimentaire.png" alt="">
+        </div>
+        <input type="search" placeholder=" 🔎Recherche..." >
+        <!-- menu de navigation -->
+         <nav>
+            <ul>
+                <li> <a href="index.html">Accueil</a></li>
+                <li> <a href="produits.html">Nos Produits</a></li>
+                <li> <a href="Galerie.html">Galerie</a></li>
+                <li> <a href="Blog.html">Blog</a></li>
+                <li> <a href="Conctact.html">Conctact</a></li>
+            </ul>
+         </nav>
+    </header>
+     <div class="article" id="a1">
+        <h2>Article 1</h2>
+        <fieldset>
+        <img src="image/images1.jpeg" alt="Image">
+
+        <p>Dans notre village, le mil est l’un des produits les plus cultivés.  Grâce à une coopérative locale, il est désormais transformé en farine, <br>puis en biscuits savoureux.
+            Cette initiative permet : </p>
+            <p>
+                <li>"de valoriser les produits agricoles locaux",</li>
+                <li>"de créer de l’emploi pour les jeunes et les femmes",</li>
+                <li>"de réduire les pertes après récolte".</li>
+            </p>
+            <blockquote>
+                "Une belle réussite de transformation agroalimentaire durable et locale !"<br><br>
+                    <cite>– Mamoush transformation agroalimentaire</cite>
+            </blockquote>
+        <legend> <h2>Du mil au biscuit : une transformation locale et durable</h2></legend>    
+       </fieldset>
+        <input type="text" placeholder="Votre commentaire">
+        <button onclick="ajouter('a1')">Commenter</button>
+        <div class="comments"></div>
+    </div>
+
+    <div class="article" id="a2">
+        <h2>Article 2</h2>
+        <fieldset>
+        <img src="image/images5.jpeg">
+        <p>Grâce à un petit atelier de transformation, les fruits trop mûrs autrefois jetés sont maintenant transformés en jus naturels.
+            Cette activité permet : </p>
+            <p>
+                <li>"de réduire le gaspillage alimentaire",</li>
+                <li>"de générer un revenu supplémentaire pour les familles",</li>
+                <li>"de réduire les pertes après récolte".</li>
+            </p>
+<blockquote>
+  "Chaque bouteille vendue est un fruit sauvé et une famille soutenue."
+  <cite>– Mamoush transformation agroalimentaire</cite>
+</blockquote>
+        <legend> <h2>Du fruit au jus : valorisation des produits locaux</h2></legend>    
+       </fieldset>
+        <input type="text" placeholder="Votre commentaire">
+        <button onclick="ajouter('a2')">Commenter</button>
+        <div class="comments"></div>
+    </div>
+    
+    <script src="blog.js"></script>
+</body>
+</html>
