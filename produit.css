@@ -72,7 +72,7 @@ a:hover{
     border-radius:10px;
     width: 25vh;
     height: 45vh;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .item2{
@@ -136,6 +136,9 @@ a:hover{
     height: 25vh;
     /* margin-left: 28px; */
     border-radius:10px;
+}
+.item:hover{
+    transform: scale(1.1);
 }
 .item  h3{
     background-color: green;

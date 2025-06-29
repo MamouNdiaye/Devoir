@@ -94,6 +94,15 @@ a:hover{
 
     .slider .prev { left: 10px; }
     .slider .next { right: 10px; }
+    .video-slide{
+      width: 100%;      /* s'adapte à la largeur du conteneur */
+  max-width: 600px; /* taille maximale */
+  height: 75vh; 
+    }
+    .slides{
+      width: 100%;
+      /* height: 20vh; */
+    }
 
     @media (max-width: 768px) {
       .slide, .video-slide { height: 250px; }
